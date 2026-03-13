@@ -23,9 +23,33 @@ button {
     transition: 0.5s;
 }
 .linternita:hover{
-    color: pink;
+    color: red;
 }
 
 label{
     cursor:pointer;
+}
+.sufrimiento {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sufrimiento:hover{
+color: gray;
+}
+.pagina {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pagina:hover {
+color: gray;
+}
+.sorpresa {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sorpresa:hover {
+    color: gray;
 }
