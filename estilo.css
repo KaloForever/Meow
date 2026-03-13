@@ -15,6 +15,7 @@ textarea {
 button {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 .linternita {
     color: black;
@@ -23,4 +24,8 @@ button {
 }
 .linternita:hover{
     color: pink;
+}
+
+label{
+    cursor:pointer;
 }
