@@ -1,20 +1,10 @@
 * {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
 color: white;
 }
 
-textarea {
-    background-color: black;
-    color: white;
-}
-
-button {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
 .linternita {
     color: black;
     cursor: pointer;
@@ -50,4 +40,7 @@ color: gray;
 }
 .sorpresa:hover {
     color: gray;
+}
+table, th, td {
+    border: 1px solid pink;
 }
