@@ -1,46 +1,38 @@
 * {
-    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-color: white;
+    margin: 5px;
 }
 
-.linternita {
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.linternita:hover{
-    color: red;
+body {
+    background-color: #e9e9e9;
+    align-items: center;
+    text-align: center;
 }
 
-label{
-    cursor:pointer;
+.oculto{
+    color: white;
 }
-.sufrimiento {
+.oculto:hover{
     color: black;
-    cursor: pointer;
     transition: 0.5s;
-}
-.sufrimiento:hover{
-color: gray;
-}
-.pagina {
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.pagina:hover {
-color: gray;
-}
-.sorpresa {
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.sorpresa:hover {
-    color: gray;
 }
 table, th, td {
-    border: 1px solid pink;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+img {
+    width: 50%;
+    border: 5px solid rgb(107, 107, 107);
+    border-radius: 2em;
+}
+hr {
+    border: 1px solid rgb(95, 95, 95);
+}
+
+ul, ol, table {
+    display: inline-block; /* Hace que la lista solo ocupe el ancho de su texto */
+}
+button {
+    cursor: pointer;
 }
