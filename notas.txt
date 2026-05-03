@@ -1,14 +1,14 @@
 
 FORMULARIO PARA Q MI AMORE ME ENVIE MENSAJES A MI EMAIL
-<form
+    <form
     action="https://formspree.io/f/xqeylkyv"
     method="POST"
 >
     <label for="mensaje">
-    Escribeme lo que quieras y llegará a mi correo
-    <br>
     <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Aquí, sisi justo aquí :3"></textarea>
     </label>
 <br>
-    <button type="submit">Enviar ❤️</button>
+    <button type="submit" title="Eres tan lindoo">Enviar ❤️</button>
 </form>
+</body>
+</html>

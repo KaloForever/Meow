@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Teamo;
+    src: url(../Fonts/PlayfairDisplay-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: Bold;
+    src: url(../Fonts/PlayfairDisplay-Bold.ttf) format(truetype);
+}
+body {
+    font-family: Teamo;
+}
+.negrita {
+    font-family: Bold;
+}

@@ -1,0 +1,12 @@
+div.endiv {
+    background-color: red;
+    border: 5px solid green;
+    margin: 20px;
+    padding: 5px;
+}
+h1.endiv {
+    background-color: blue;
+}
+p.endiv {
+    background-color: yellow;
+}
