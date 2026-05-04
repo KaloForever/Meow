@@ -33,6 +33,7 @@ h1.endiv2 {
 .caja2 {
     background-color: blue;
     margin-bottom: 30px;
+    margin-top: 30px;
     width: 100px;
     height: 100px;
     display: flex;
