@@ -40,13 +40,26 @@
         <hr>
         <p>Algo que hay que recordar es que si 2 margin de 2 elementos estan pegados se superponen y solo se muestra el margin mas grande de los 2, un ejemplo sería:</p>
         <div class="centrar">
-        <p class="caja1">margin 30px</p>
-        <p class="caja1">margin 30px</p>
-        <hr>
-        <p class="caja2">margin 30px</p>
-        <p class="caja3">margin 60px</p>
+        <p class="caja">margin 30px</p>
+        <p class="caja">margin 30px</p>
+        <p class="caja caja2">margin 30px</p>
+        <p class="caja caja3">margin 60px</p>
         </div>
         <hr>
+        <h2>Box-sizing</h2>
+        <p>Resulta que hay una propiedad llamada Box-sizing que define cómo se calcula el tamaño total de un elemento en CSS. Porq por defecto el navegador suma el padding y el border al tamaño que defina, lo que aveces suele "romper" los diseños. Esta propiedad evita que esto suceda un ejemplo sería:</p>
+        <h3>Sin la propiedad box-sizing: border-box</h3>
+        <h4>width: 100px; <br>
+        height: 100px;</h4>
+        <p>En realidad mide 170px x 170px</p>
+        <div class="box-sizing"></div>
+        <h3>Usando box-sizing: border-box:</h3>
+        <h4>width: 100px; <br>
+        height: 100px;</h4>
+        <p>Si mide 100px x 100px</p>
+        <div class="box-sizing con-box-sizing"></div>
+        <hr>
         <p>jejejej no sabes cuanto he sufrido haciendo esto, diría que es la práctica que mas esfuerzo le he dedicado hasta ahora kjdskjd</p>
+        <hr>
 </body>
 </html>
